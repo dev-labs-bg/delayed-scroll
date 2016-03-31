@@ -3,7 +3,7 @@
  * https://github.com/dev-labs-bg/delayed-scroll
  */
 
-(function() {
+(function(window, $) {
     window.DelayedScroll = window.DelayedScroll || {};
 
     var scrollTimeout = null;
@@ -111,4 +111,4 @@
             }
         }
     };
-})();
+})(window, $);

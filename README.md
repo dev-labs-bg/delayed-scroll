@@ -17,7 +17,7 @@ function somethingHappeningOnScroll(scrollTop){
 DelayedScroll.attach(somethingHappeningOnScroll);
 
 // ... and detach it by passing the same function again
-App.DelayedScroll.detach(closeOnScroll);
+DelayedScroll.detach(closeOnScroll);
 ```
 
 More docs coming soon!
